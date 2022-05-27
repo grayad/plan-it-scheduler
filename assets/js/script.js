@@ -158,8 +158,58 @@ function timeColor(){
 
 // save inputs to localstorage when a save button is clicked
 function saveInputs9(){
-
+    var input = $("#hour9").val().trim();
+    localStorage.setItem("9AM", input);
 }
+$("#btn9").on("click",saveInputs9);
+
+function saveInputs10(){
+    var input = $("#hour10").val().trim();
+    localStorage.setItem("10AM", input);
+}
+$("#btn10").on("click",saveInputs10);
+
+function saveInputs11(){
+    var input = $("#hour11").val().trim();
+    localStorage.setItem("11AM", input);
+}
+$("#btn11").on("click",saveInputs11);
+
+function saveInputs12(){
+    var input = $("#hour12").val().trim();
+    localStorage.setItem("12PM", input);
+}
+$("#btn12").on("click",saveInputs12);
+
+function saveInputs1(){
+    var input = $("#hour1").val().trim();
+    localStorage.setItem("1PM", input);
+}
+$("#btn1").on("click",saveInputs1);
+
+function saveInputs2(){
+    var input = $("#hour2").val().trim();
+    localStorage.setItem("2PM", input);
+}
+$("#btn2").on("click",saveInputs2);
+
+function saveInputs3(){
+    var input = $("#hour3").val().trim();
+    localStorage.setItem("3PM", input);
+}
+$("#btn3").on("click",saveInputs3);
+
+function saveInputs4(){
+    var input = $("#hour4").val().trim();
+    localStorage.setItem("4PM", input);
+}
+$("#btn4").on("click",saveInputs4);
+
+function saveInputs5(){
+    var input = $("#hour5").val().trim();
+    localStorage.setItem("5PM", input);
+}
+$("#btn5").on("click",saveInputs5);
 
 // function saveBtnHandler() {
 //     var textValue= hour9.value.val().trim();
