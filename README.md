@@ -1,7 +1,7 @@
 # plan-it-scheduler
 
 ## Purpose
-A daily planner to schedule tasks during work hours. Time blocks in the past show as gray, while those in the present and future show as red and green. User inputs are saved and reloaded from localStorage so that the task items persist on the page through page reloads.
+A daily planner to schedule tasks during work hours. Each day, the current date is shown. Time blocks in the past show as gray, while those in the present and future show as red and green. User inputs are saved and reloaded from localStorage so that the task items persist on the page through page reloads.
 
 ## Built With
 -HTML
